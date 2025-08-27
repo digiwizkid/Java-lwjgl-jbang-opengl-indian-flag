@@ -29,7 +29,7 @@ import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryStack.*;
 import static org.lwjgl.system.MemoryUtil.*;
 
-public class OpenGLRectangle {
+public class IndianFlag {
     
     // Window handle
     private long window;
@@ -234,7 +234,7 @@ public class OpenGLRectangle {
     }
     
     public static void main(String[] args) {
-        new OpenGLRectangle().run();
+        new IndianFlag().run();
     }
 }
 
@@ -242,8 +242,8 @@ public class OpenGLRectangle {
  * JBang Usage:
  * 
  * To run this file:
- * 1. Save this file as OpenGLRectangle.java
- * 2. Run: jbang OpenGLRectangle.java
+ * 1. Save this file as IndianFlag.java
+ * 2. Run: jbang IndianFlag.java
  * 
  * JBang will automatically download all dependencies including
  * native libraries for your platform (Windows, Linux, macOS).
